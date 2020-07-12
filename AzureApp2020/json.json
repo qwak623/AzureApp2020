@@ -1,0 +1,38 @@
+{
+  "name": "AppMetrics",
+  "time": "2020-06-20T13:53:30.0000000Z",
+  "iKey": "ffc8f452-8e18-438a-80d2-9eb023d73ba7",
+  "tags": {
+    "ai.cloud.roleInstance": "Hanysek",
+    "ai.internal.sdkVersion": "m-agg2:2.15.0-4802"
+  },
+  "data": {
+    "baseType": "MetricData",
+    "baseData": {
+      "ver": 2,
+      "metrics": [
+        {
+          "name": "Server response time",
+          "kind": "Aggregation",
+          "value": 3997.9353,
+          "count": 1,
+          "min": 3997.9353,
+          "max": 3997.9353,
+          "stdDev": 0
+        }
+      ],
+      "properties": {
+        "request/performanceBucket": "3sec-7sec",
+        "request/resultCode": "200",
+        "_MS.MetricId": "requests/duration",
+        "cloud/roleInstance": "Hanysek",
+        "_MS.IsAutocollected": "True",
+        "_MS.AggregationIntervalMs": "31000",
+        "cloud/roleName": "Unknown",
+        "operation/synthetic": "False",
+        "DeveloperMode": "true",
+        "Request.Success": "True"
+      }
+    }
+  }
+}
